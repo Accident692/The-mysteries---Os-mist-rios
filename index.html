@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>The Mysteries</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: black;
+}
+
+/* FUNDO */
+.hero {
+    background: url("fundo.jpeg") no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 10px purple; }
+    to { text-shadow: 0 0 30px red; }
+}
+
+/* PERSONAGENS */
+.mary { color: red; }
+.jhon { color: yellow; }
+.mason { color: gold; }
+.rip { color: violet; text-shadow: 0 0 10px purple; }
+.fer { color: #cccccc; }
+
+/* SEÇÕES */
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.section img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 40px;
+    margin: 20px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* LINKS */
+.footer {
+    text-align: center;
+    padding: 40px;
+    background: #111;
+}
+
+.footer a {
+    color: cyan;
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- FUNDO -->
+<div class="hero">
+    <h1>THE MYSTERIES</h1>
+</div>
+
+<!-- TEXTO 1 -->
+<div class="section">
+    <img src="texto1.jpeg">
+    <h2 class="title">INTERROGATION</h2>
+
+    <p>
+    <span class="mary">Mary:</span> Bom dia, senhor Jhon Johnson...<br>
+    <span class="jhon">Jhon:</span> Estou aqui porque fui o único sobrevivente...<br><br>
+
+    <b>🇺🇸 English</b><br>
+    <span class="mary">Mary:</span> Good morning, Mr. Jhon Johnson...<br>
+    <span class="jhon">Jhon:</span> I’m here because I was the only survivor...
+    </p>
+</div>
+
+<!-- TEXTO 2 -->
+<div class="section">
+    <img src="texto2.jpeg">
+    <h2 class="title">HYDRA BEAST</h2>
+
+    <p>
+    🇧🇷 Hydra Beast — os novos Sea Beasts híbridos...<br><br>
+    🇺🇸 Hydra Beast — the new hybrid Sea Beasts...
+    </p>
+</div>
+
+<!-- TEXTO 3 -->
+<div class="section">
+    <img src="texto3.jpeg">
+    <h2 class="title">A FURIOUS GOD</h2>
+
+    <p>
+    <span class="rip">Rip Indra:</span> Acha que pode invadir meu território...<br>
+    <span class="fer">Fer:</span> Você se acha um deus, não é?<br><br>
+
+    <b>🇺🇸 English</b><br>
+    <span class="rip">Rip Indra:</span> Do you think you can invade my land...<br>
+    <span class="fer">Fer:</span> You think you’re a god, don’t you...
+    </p>
+</div>
+
+<!-- REDES -->
+<div class="footer">
+    <h2>Siga nossas redes sociais</h2>
+    <a href="https://www.youtube.com/@GamerRobot" target="_blank">YouTube</a>
+    <a href="https://www.tiktok.com/@bloxfruitsofficials" target="_blank">TikTok</a>
+    <a href="https://x.com/BloxFruits" target="_blank">Twitter</a>
+</div>
+
+</body>
+</html>
