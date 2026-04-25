@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Mysteries</title>
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: white;
+  background: url('/mnt/data/fundo.jpeg.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+section {
+  padding: 60px 20px;
+  background: rgba(0,0,0,0.75);
+  margin: 25px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 0 30px rgba(0,0,0,0.9);
+  animation: fadeUp 1s ease;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  background: linear-gradient(90deg,#fff,#ff00ff,#00ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 25px rgba(255,255,255,0.3);
+  animation: glow 3s infinite alternate;
+}
+
+h2 {
+  font-size: 2em;
+  text-shadow: 0 0 15px #ff00ff;
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 10px #fff; }
+  to { text-shadow: 0 0 30px #ff00ff; }
+}
+
+p {
+  max-width: 900px;
+  margin: 12px auto;
+  line-height: 1.7;
+  font-size: 1.05em;
+}
+
+.rip { color: #a020f0; text-shadow: 0 0 12px #a020f0; }
+.mary { color: red; text-shadow: 0 0 10px red; }
+.fer { color: #d3d3d3; }
+.jhon { color: yellow; text-shadow: 0 0 10px yellow; }
+.mason { color: gold; text-shadow: 0 0 10px gold; }
+
+img {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 25px auto;
+  border-radius: 15px;
+  border: 2px solid rgba(255,255,255,0.2);
+  box-shadow: 0 0 25px rgba(0,0,0,0.9);
+  transition: all 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 45px rgba(255,255,255,0.3);
+}
+
+a {
+  color: white;
+  display:block;
+  text-align:center;
+  margin:15px;
+  font-size:1.2em;
+  text-decoration:none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: cyan;
+  transform: scale(1.1);
+  text-shadow: 0 0 12px cyan;
+}
+
+.social-box {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(0,0,0,0.6);
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 0 25px rgba(0,0,0,0.8);
+}
+
+.social {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 1.2em;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.social::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.6), transparent);
+  transform: skewX(-25deg);
+}
+
+.social:hover::before {
+  animation: shine 0.8s forwards;
+}
+
+@keyframes shine {
+  0% { left: -75%; }
+  100% { left: 125%; }
+}
+
+.social:hover {
+  transform: scale(1.05);
+}
+
+.social:hover {
+  transform: scale(1.05);
+}
+
+.youtube:hover {
+  background: rgba(255,0,0,0.2);
+  box-shadow: 0 0 15px red;
+}
+
+.tiktok:hover {
+  background: rgba(0,255,255,0.2);
+  box-shadow: 0 0 15px cyan;
+}
+
+.twitter:hover {
+  background: rgba(255,255,255,0.2);
+  box-shadow: 0 0 15px white;
+}
+
+</style>
+</head>
+<body>
+
+<!-- PARTE 1 -->
+<section>
+<h1>THE MYSTERIES</h1>
+</section>
+
+<!-- PARTE 2 -->
+<section>
+<h2>INTERROGATÓRIO</h2>
+<img src="/mnt/data/texto1.jpeg.jpeg">
+
+<p><span class="mary">Mary:</span> Bom dia, senhor Jhon Johnson. Sabe por que está aqui?</p>
+<p><span class="jhon">Jhon:</span> Estou aqui porque fui o único sobrevivente do atentado na fábrica… e vocês querem arrancar informações de mim.</p>
+<p><span class="mary">Mary:</span> Será que é só isso? Sempre respostas vazias… algumas sem sentido, outras sem emoção. Quando a Apex Global me informou que você estava vivo, fiquei impressionada. Como alguém como você sobreviveu? Só bateu a cabeça? Não foi explodido… nem despedaçado como seus colegas. São perguntas simples… mas com muito significado. Você está aqui para nos dar as informações que precisamos… e então poderá sair por aquela porta e nunca mais voltar. Então, o que me diz? Vai falar… ou prefere ver centenas de pessoas morrerem como aconteceu lá? Porque aquilo não foi só na fábrica. Está acontecendo no mundo inteiro… ilha por ilha, cidade por cidade. Mas temos uma chance… e ela está bem na minha frente.</p>
+<p><span class="jhon">Jhon:</span> Pra uma mulher… você é bem irritante.</p>
+<p><span class="mary">Mary:</span> Todos dizem isso. Mas eu só sigo ordens… e minha ordem é fazer você falar.</p>
+<p><span class="jhon">Jhon:</span> Certo, senhorita Mary… vou te dizer uma coisa: vocês não têm chance contra aquilo. Ele é invencível. Aquilo não é humano… é uma arma… ou pior, um deus. Como Rip Indra… como Mygame. Ele não conversa… só destrói. Olhos por toda a fábrica… e depois… caos. Tentei salvar meu amigo… tentei… mas fui fraco. Não tenho haki… não tenho fruta… sou só um homem tentando sustentar minha família. Mas você não entenderia, né? Vive numa mansão, com guardas te protegendo… enquanto eu acordo todo dia me perguntando se minha filha ainda está viva.</p>
+<p><span class="mary">Mary:</span> CHEGA! Acha que sou sua psicóloga? Estou aqui por informações!</p>
+<p><span class="jhon">Jhon:</span> Culpa sua… e dessa empresa. Esse mundo está cheio de deuses, piratas e monstros… você não faz ideia de quantas pessoas morrem por dia.</p>
+<p><span class="mary">Mary:</span> Fazemos alianças para manter a ordem. Eles querem território… nós deixamos. É melhor ver pessoas pagando… do que mortas, não acha? Você fala como se pudéssemos lutar contra um deus. Um ser que se transforma em coisas inimagináveis. Não vamos enfrentar Mygame ou Rip Indra… eles destruiriam essa ilha em segundos. Agora me diga… você está frustrado por ter perdido Lip e Esthan… ou pela sua esposa? Vai falar… ou não?</p>
+<p><span class="jhon">Jhon:</span> Já estou indo embora. Podem ter armas indestrutíveis… frutas modificadas… mas não vão nem arranhar ele. O que aconteceu na fábrica foi só o começo. Boa sorte tentando parar um deus.</p>
+<p><span class="mary">Mary:</span> Alô… quem fala?</p>
+<p><span class="mason">Mason:</span> Conseguiu alguma coisa, Mary?</p>
+<p><span class="mary">Mary:</span> Nada. Sugiro iniciar o plano B.</p>
+<p><span class="mason">Mason:</span> Então quer que ele seja sequestrado? Que garota má… não fazemos isso… hahaha. Quer dizer… já foi feito. Ele está em Slandbold. Arranque as informações… nem que custe a vida da filha dele. Precisamos domesticar esse próximo deus… hahaha.</p>
+<p><span class="mary">Mary:</span> Hm… cruel como sempre, chefe. Que seu pedido… se torne uma ordem.</p>
+
+<p><b>ENGLISH VERSION</b></p>
+<p><span class="mary">Mary:</span> Good morning, Mr. Jhon Johnson. Do you know why you’re here?</p>
+<p><span class="jhon">Jhon:</span> I’m here because I was the only survivor of the factory attack… and you want to extract information from me.</p>
+<p><span class="mary">Mary:</span> Is that really all? Always empty answers… some meaningless, others without emotion. When Apex Global informed me that you were alive, I was impressed. How did someone like you survive? Did you just hit your head? You weren’t blown up… nor torn apart like your coworkers. These are simple questions… but they carry deep meaning. You are here to give us the information we need… and then you can walk out that door and never come back. So, what do you say? Will you talk… or would you rather see hundreds of people die like what happened there? Because what happened wasn’t only at the factory. It’s happening all over the world… island by island, city by city. But we have a chance… and it’s right in front of me.</p>
+<p><span class="jhon">Jhon:</span> For a woman… you’re pretty annoying.</p>
+<p><span class="mary">Mary:</span> Everyone says that. But I just follow orders… and my order is to make you talk.</p>
+<p><span class="jhon">Jhon:</span> Alright, Miss Mary… let me tell you something: you have no chance against that thing. It’s invincible. That isn’t human… it’s a weapon… or worse, a god. Like Rip Indra… like Mygame. It doesn’t talk… it only destroys. Eyes all over the factory… and then… chaos. I tried to save my friend… I tried… but I was weak. I don’t have haki… I don’t have any powers… I’m just a man trying to support my family. But you wouldn’t understand, right? You live in a mansion with guards protecting you… while I wake up every day wondering if my daughter is still alive.</p>
+<p><span class="mary">Mary:</span> ENOUGH! Do you think I’m your psychologist? I’m here for information!</p>
+<p><span class="jhon">Jhon:</span> It’s your fault… and your company’s. This world is full of gods, pirates, and monsters… you have no idea how many people die every day.</p>
+<p><span class="mary">Mary:</span> We form alliances to maintain order. They want territory… we let them. It’s better to see people paying… than dead, don’t you think? You talk as if we could fight a god. A being that transforms into unimaginable forms. We will not face Mygame or Rip Indra… they would destroy this island in seconds. Now tell me… are you frustrated because you lost Lip and Esthan… or your wife? Are you going to talk… or not?</p>
+<p><span class="jhon">Jhon:</span> I’m leaving. You may have indestructible weapons… modified powers… but you won’t even scratch it. What happened at the factory was just the beginning. Good luck trying to stop a god.</p>
+<p><span class="mary">Mary:</span> Hello… who is this?</p>
+<p><span class="mason">Mason:</span> Did you get anything, Mary?</p>
+<p><span class="mary">Mary:</span> Nothing. I suggest we begin Plan B.</p>
+<p><span class="mason">Mason:</span> So you want him kidnapped? What a bad girl… we don’t do that… hahaha. Actually… it’s already done. He’s in Slandbold. Get the information… even if it costs his daughter’s life. We need to tame this next god… hahaha.</p>
+<p><span class="mary">Mary:</span> Hm… cruel as always, boss. May your request… become an order.</p>
+</section>
+
+<!-- PARTE 3 -->
+<section>
+<h2>HYDRA BEAST</h2>
+<img src="/mnt/data/texto2.jpeg.jpeg">
+
+<p><b>🇧🇷 Brasil (Português)</b></p>
+<p>Hydra Beast — os novos Sea Beasts híbridos</p>
+<p>Os Hydra Beasts são uma nova geração de criaturas marítimas híbridas, capazes de manipular elementos como fogo, raio, gelo e sombras — entre outros que ainda estão em desenvolvimento.</p>
+<p>O projeto está sendo trabalhado há mais de cinco meses, e por enquanto poucas informações foram divulgadas.</p>
+<p>No entanto, já sabemos que essa será uma mecânica pensada para diversificar o combate no mar, oferecendo experiências únicas para cada jogador.</p>
+<p>Cada Hydra terá seu próprio estilo de ataque: algumas poderão te agarrar com a mandíbula, outras atacar com golpes de cauda ou utilizar habilidades elementais para surpreender durante a navegação.</p>
+<p>Apesar de parecerem mecânicas simples, elas prometem transformar completamente a dinâmica dos mares.</p>
+<p>Atualmente, o sistema ainda está em fase de testes, então não há confirmação de lançamento para este ano — nem garantia de que o projeto seguirá adiante exatamente como está.</p>
+<p>Mas, se for implementado, tudo indica que veremos uma verdadeira evolução nos mares… tornando a exploração muito mais intensa, desafiadora e divertida.</p>
+
+<p><b>🇺🇸 United States (English)</b></p>
+<p>Hydra Beast — the new hybrid Sea Beasts</p>
+<p>Hydra Beasts are a new generation of hybrid sea creatures capable of manipulating elements such as fire, lightning, ice, and shadows — among others still in development.</p>
+<p>The project has been in development for over five months, and for now, very little information has been revealed.</p>
+<p>However, we already know this system is designed to diversify naval combat, offering unique experiences for each player.</p>
+<p>Each Hydra will have its own attack style: some may grab you with their jaws, others attack with tail strikes, or use elemental abilities to surprise players during navigation.</p>
+<p>Although these mechanics may seem simple, they promise to completely transform the dynamics of the seas.</p>
+<p>Currently, the system is still in testing, so there is no confirmed release for this year — nor any guarantee that the idea will move forward exactly as planned.</p>
+<p>But if implemented, everything suggests we will see a true evolution of the seas… making exploration much more intense, challenging, and fun.</p>
+</section>
+
+<!-- PARTE 4 -->
+<section>
+<h2>UM DEUS FURIOSO</h2>
+<img src="/mnt/data/texto3.jpeg.jpeg">
+
+<p><b>🇧🇷 Brasil (Português)</b></p>
+<p>Um Deus Furioso</p>
+<p>Há três dias, a grande rainha pirata Fer ousou cruzar um limite que jamais deveria ser tocado.</p>
+<p>Ela invadiu um território que não lhe pertencia.</p>
+<p>Arrancou a bandeira do temido deus <span class="rip">Rip Indra</span>.</p>
+<p>Saqueou o dinheiro dos moradores — uma taxa que seria entregue ao próprio Indra no fim do mês.</p>
+<p>Mas não parou por aí.</p>
+<p><span class="fer">Fer:</span> destruiu monumentos históricos… erguidos pelo próprio deus.</p>
+<p>E então fica a pergunta:</p>
+<p>Você realmente achou que um deus deixaria isso barato?</p>
+<p>Na madrugada de hoje… o céu mudou.</p>
+<p>Uma tempestade violenta tomou conta da ilha central.</p>
+<p>Trovoadas rasgavam o céu.</p>
+<p>A chuva caía como se o próprio mundo estivesse sendo punido.</p>
+<p>E então…</p>
+<p>No meio das nuvens negras… uma silhueta surgiu.</p>
+<p>Uma aura roxa pulsava ao seu redor.</p>
+<p>Olhos carregados de fúria brilhavam na escuridão.</p>
+<p>Ele descia lentamente em direção à ilha.</p>
+<p>Ao mesmo tempo… olhos misteriosos começaram a surgir por todos os cantos.</p>
+<p>Observando. Julgando.</p>
+<p>A tripulação da rainha pirata <span class="fer">Fer</span> acordou em desespero.</p>
+<p>Eles sabiam.</p>
+<p>O governante havia chegado.</p>
+<p><span class="rip">Rip Indra:</span> Acha que pode invadir meu território… queimar minha bandeira… destruir minha ilha… e roubar aquilo que me pertence… como se fosse dona de tudo?</p>
+<p><span class="fer">Fer:</span> (sorri, desafiadora) Você se acha um deus, não é, <span class="rip">Rip Indra</span>? Mas não passa de alguém que acredita no próprio mito. Tudo isso… agora é meu. E continuará sendo… até eu governar todos os mares.</p>
+<p>Silêncio.</p>
+<p>Por um único instante… o mundo pareceu parar.</p>
+<p>E então—</p>
+<p>Em um piscar de olhos… toda a tripulação de <span class="fer">Fer</span> foi destruída.</p>
+<p>Seus corpos foram esmagados por uma força invisível.</p>
+<p>Sem som. Sem chance de reação.</p>
+<p><span class="fer">Fer:</span> (olhando ao redor, surpresa) Uau… então esse é o seu poder… Interessante. Mas me diga… o que são esses olhos… me observando?</p>
+<p><span class="rip">Rip Indra:</span> (frio) Eles… julgam.</p>
+<p>Sem aviso—</p>
+<p><span class="rip">Rip Indra</span> avança.</p>
+<p><span class="fer">Fer</span> reage no último segundo, abrindo um portal.</p>
+<p>Mas algo estava errado.</p>
+<p>Aquele portal… que antes era azul… agora brilhava em um tom roxo intenso.</p>
+<p>Ela não controlava aquilo.</p>
+<p>Os dois desaparecem.</p>
+<p>Engolidos pela dimensão desconhecida.</p>
+<p>E depois disso… silêncio.</p>
+<p>Nenhum som. Nenhum sinal.</p>
+<p>Nem eu… nem qualquer outra pessoa da ilha… jamais vimos os dois novamente.</p>
+<p>O que realmente aconteceu dentro daquele portal?</p>
+
+<p><b>🇺🇸 United States (English)</b></p>
+<p>A Furious God</p>
+<p>Three days ago, the great pirate queen <span class="fer">Fer</span> dared to cross a line that should never have been touched.</p>
+<p>She invaded a territory that did not belong to her.</p>
+<p>She tore down the flag of the feared god <span class="rip">Rip Indra</span>.</p>
+<p>She looted the villagers’ money — a payment meant for Indra at the end of the month.</p>
+<p>But she didn’t stop there.</p>
+<p><span class="fer">Fer</span> destroyed historical monuments… built by the god himself.</p>
+<p>And so the question remains:</p>
+<p>Did you really think a god would let this go?</p>
+<p>At dawn today… the sky changed.</p>
+<p>A violent storm took over the central island.</p>
+<p>Thunder tore through the sky.</p>
+<p>Rain fell as if the world itself was being punished.</p>
+<p>And then…</p>
+<p>Within the dark clouds… a silhouette appeared.</p>
+<p>A purple aura pulsed around it.</p>
+<p>Eyes filled with fury shone in the darkness.</p>
+<p>He descended slowly toward the island.</p>
+<p>At the same time… mysterious eyes began to appear everywhere.</p>
+<p>Watching. Judging.</p>
+<p>The pirate crew of Queen <span class="fer">Fer</span> woke in despair.</p>
+<p>They knew.</p>
+<p>The ruler had arrived.</p>
+<p><span class="rip">Rip Indra:</span> Do you think you can invade my territory… burn my flag… destroy my island… and steal what belongs to me… as if you owned everything?</p>
+<p><span class="fer">Fer:</span> (smiling, defiant) You think you’re a god, don’t you, <span class="rip">Rip Indra</span>? But you’re just someone who believes in your own myth. All of this… is mine now. And it will remain mine… until I rule all seas.</p>
+<p>Silence.</p>
+<p>For a single moment… the world seemed to stop.</p>
+<p>And then—</p>
+<p>In the blink of an eye… her entire crew was destroyed.</p>
+<p>Their bodies were crushed by an invisible force.</p>
+<p>No sound. No chance to react.</p>
+<p><span class="fer">Fer:</span> (looking around, surprised) Wow… so this is your power… Interesting. But tell me… what are these eyes watching me?</p>
+<p><span class="rip">Rip Indra:</span> (cold) They… judge.</p>
+<p>Without warning—</p>
+<p><span class="rip">Rip Indra</span> attacks.</p>
+<p><span class="fer">Fer</span> reacts at the last second, opening a portal.</p>
+<p>But something was wrong.</p>
+<p>That portal… which used to be blue… now glowed with an intense purple color.</p>
+<p>She wasn’t controlling it.</p>
+<p>Both disappeared.</p>
+<p>Consumed by an unknown dimension.</p>
+<p>And after that… silence.</p>
+<p>No sound. No sign.</p>
+<p>No one… has ever seen them again.</p>
+<p>What really happened inside that portal?</p>
+</section>
+
+<!-- PARTE 5 -->
+<section>
+<h2>Siga nossas redes sociais</h2>
+
+<div class="social-box">
+  <a href="https://www.youtube.com/@GamerRobot" target="_blank" class="social youtube">▶ YouTube - GamerRobot</a>
+  <a href="https://www.tiktok.com/@bloxfruitsofficials" target="_blank" class="social tiktok">♫ TikTok - Blox Fruits</a>
+  <a href="https://x.com/BloxFruits" target="_blank" class="social twitter">✕ Twitter (X) - Blox Fruits</a>
+</div>
+
+</section>
+
+
+<!-- SOM AMBIENTE PRAIA -->
+<audio autoplay loop>
+  <source src="ocean.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
